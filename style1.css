@@ -1,0 +1,363 @@
+* {
+  font-family: "montserrat";
+  font-size: 20px;
+}
+.icon {
+  font-size: 20px;
+  color: #d6ab60;
+}
+.top_boxx {
+  background-color: #13120c;
+  padding: 1px;
+  color: rgb(255, 255, 255);
+  display: flex;
+}
+.top_boxx > a {
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.top_box {
+  background-color: #13120c;
+  padding: 1px;
+  justify-content: space-around;
+  /* font-family: 'Noto Sans Mende Kikakui', sans-serif; */
+  color: rgb(255, 255, 255);
+  display: flex;
+}
+.top_box > p {
+  font-size: 13px;
+  font-family: "Open Sans", sans-serif;
+}
+.top_box > p > span {
+  font-size: 12px;
+  color: rgba(128, 113, 113, 0.964);
+  font-family: "Open Sans", sans-serif;
+}
+
+.navigation {
+  background-color: rgba(227, 209, 209, 0.177);
+  background-image: url(./images/red-black-brush-stroke-banner-background-perfect-canva.jpg);
+  background-position: 100%;
+  background-size: cover;
+}
+#active {
+  color: rgb(252, 253, 255);
+
+  font-size: 19px;
+}
+#activee {
+  background-color: transparent;
+  color: aliceblue;
+}
+#active:hover {
+  color: #10100e;
+}
+#activee:hover {
+  color: #13120c;
+}
+/* trust */
+.text > p {
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+}
+.text1 > p {
+  font-size: 15px;
+  font-family: "Open Sans", sans-serif;
+  text-align: start;
+}
+
+.text1 > h5 {
+  font-size: 20px;
+  font-family: "Open Sans", sans-serif;
+  text-align: start;
+  font-weight: 600;
+}
+.text2 > h5 {
+  font-size: 20px;
+  font-family: "Open Sans", sans-serif;
+  text-align: start;
+  font-weight: 600;
+}
+.text3 > h5 {
+  font-size: 20px;
+  font-family: "Open Sans", sans-serif;
+  text-align: start;
+  font-weight: 600;
+}
+.text2 > p {
+  font-size: 15px;
+  font-family: "Open Sans", sans-serif;
+  text-align: start;
+}
+.text3 > p {
+  font-size: 15px;
+  font-family: "Open Sans", sans-serif;
+  text-align: start;
+}
+.text > h3 {
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+}
+.text > h5 {
+  text-align: start;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: "Open Sans", sans-serif;
+}
+
+.office-1 {
+}
+.office > img {
+  border-radius: 9px;
+}
+/* counter */
+body {
+  background: url("https://png.pngtree.com/thumb_back/fh260/back_pic/00/01/54/555604115c64ab3.jpg")
+    no-repeat;
+  background-size: cover;
+  background-position: 100%;
+}
+.stat {
+  background: #121212;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  color: #fff;
+  background-attachment: fixed;
+  margin-top: 209px;
+}
+.stat i {
+  font-size: 50px;
+}
+.ad > img {
+  justify-content: center;
+}
+.stat-items h2 {
+  font-size: 42px;
+  color: darkorange;
+}
+.stat p {
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+.office1 > img {
+  border-radius: 10px;
+  border: solid rgba(249, 185, 9, 0.718) 1px;
+}
+.office2 {
+  /* border: solid rgba(103, 102, 98, 0.185) 1px; */
+  /* border-radius: 8px; */
+  border-left: #d6ab60 solid 1px;
+}
+.office2 > h3 {
+  /* font-family: 'Open Sans', sans-serif; */
+}
+.office2 > p {
+  /* font-family: 'Open Sans', sans-serif; */
+
+  font-size: 18px;
+  text-align: start;
+}
+.off {
+  background-color: #69695f4d;
+  /* border: solid rgba(193, 188, 185, 0.373) 20px; */
+}
+/* latestnews */
+.news1 {
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+}
+.news1 > p {
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  border-bottom: #d6ab60 solid 1px;
+}
+.news2 > h5 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+}
+.news2 > P {
+  font-family: "Open Sans", sans-serif;
+  font-size: 17px;
+}
+.newsp:hover {
+  color: darkorange;
+}
+
+.add {
+  padding: 0.1cm;
+  background-color: #d6ab60;
+}
+
+/* footer */
+ul {
+  margin: 0px;
+  padding: 0px;
+}
+.footer-section {
+  background: #151414;
+  background-image: url(./images/red-black-brush-stroke-banner-background-perfect-canva.jpg);
+  background-position: 100%;
+  background-size: cover;
+  position: relative;
+  text-decoration: none;
+}
+.footer-cta {
+  border-bottom: 1px solid #373636;
+}
+.single-cta i {
+  color: #d6ab60;
+  font-size: 30px;
+  float: left;
+  margin-top: 8px;
+}
+.cta-text {
+  padding-left: 15px;
+  display: inline-block;
+}
+.cta-text h4 {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 2px;
+}
+.cta-text span {
+  color: #fef8f8;
+  font-size: 15px;
+}
+.footer-content {
+  position: relative;
+  z-index: 2;
+}
+.footer-pattern img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 330px;
+  background-size: cover;
+  background-position: 100% 100%;
+}
+.footer-logo {
+  margin-bottom: 30px;
+}
+.footer-logo img {
+  max-width: 200px;
+}
+.footer-text p {
+  margin-bottom: 14px;
+  font-size: 14px;
+
+  color: #f8f0f0;
+  line-height: 28px;
+}
+.footer-social-icon span {
+  color: #fff;
+  display: block;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 20px;
+}
+.footer-social-icon a {
+  color: #fff;
+  font-size: 16px;
+  margin-right: 15px;
+}
+.footer-social-icon i {
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  line-height: 38px;
+  border-radius: 50%;
+}
+.facebook-bg {
+  background: #3b5998;
+}
+.twitter-bg {
+  background: #55acee;
+}
+.google-bg {
+  background: #d6ab60;
+}
+.footer-widget-heading h3 {
+  color: rgb(5, 4, 4);
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 40px;
+  position: relative;
+}
+.footer-widget-heading h3::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -15px;
+  height: 2px;
+  width: 50px;
+  background: #d6ab60;
+}
+.footer-widget ul li {
+  display: inline-block;
+  /* float: left; */
+  width: 50%;
+  margin-bottom: 12px;
+  /* text-decoration: none!important; */
+}
+.footer-widget ul li a:hover {
+  color: #d6ab60;
+}
+.footer-widget ul li a {
+  color: #f7efef;
+  text-transform: capitalize;
+  text-decoration: none;
+}
+.subscribe-form {
+  position: relative;
+  overflow: hidden;
+}
+.subscribe-form input {
+  width: 100%;
+  padding: 14px 28px;
+  background: #2e2e2e;
+  border: 1px solid #2e2e2e;
+  color: #fff;
+}
+.subscribe-form button {
+  position: absolute;
+  right: 0;
+  background: #ff5e14;
+  padding: 13px 20px;
+  border: 1px solid#d6ab60;
+  top: 0;
+}
+.subscribe-form button i {
+  color: #fff;
+  font-size: 22px;
+  transform: rotate(-6deg);
+}
+.copyright-area {
+  background: #202020;
+  padding: 25px 0;
+}
+.copyright-text p {
+  margin: 0;
+  font-size: 14px;
+  color: #878787;
+}
+.copyright-text p a {
+  color: #d6ab60;
+  text-decoration: none;
+}
+.footer-menu li {
+  display: inline-block;
+  margin-left: 20px;
+}
+.footer-menu li:hover a {
+  color: #d6ab60;
+}
+.footer-menu li a {
+  font-size: 14px;
+  text-decoration: none;
+  color: #878787;
+}

@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./services.css">
+    <link rel="stylesheet" href="./bootstrap-5.2.2-dist/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&family=Montserrat:wght@400;500;600&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&family=Montserrat:ital,wght@0,200;0,400;0,600;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+    <style>
+        <style>.material-symbols-outlined {
+            font-variation-settings:
+                'FILL' 0,
+                'wght' 400,
+                'GRAD' 0,
+                'opsz' 48
+        }
+
+        .sndbtn {
+            padding: 12px 20px;
+            border-radius: 40px;
+            border: transparent;
+            background-color: #fcc236;
+            color: white;
+            font-weight: 800;
+        }
+
+        h6 {
+            color: rgb(61, 56, 56);
+            margin-top: 20px;
+            margin-left: 1cm;
+        }
+
+        p {
+            margin-left: 1cm;
+        }
+
+        input {
+            /* background-color: red; */
+            border-color: rgba(162, 164, 162, 0.443);
+            padding: 10px 180px;
+            margin-top: 10px;
+        }
+
+        textarea {
+            border-color: rgba(162, 164, 162, 0.443);
+            padding: 10px 158px;
+        }
+
+        .bggd>h6 {
+            color: rgb(56, 55, 55);
+        }
+    </style>
+</head>
+
+<body>
+    <!-- - navbar -->
+    <nav class="navbar navbar-expand-lg navigation sticky-top p-3 bg">
+        <div class="container-fluid">
+            <a class="navbar-brand" id="active" href="#">ONLINE BUILDING CONSTRUCTIONS</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" id="active" aria-current="page" href="./index.html">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="active" href="./services.html">SERVICES</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="active" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            LOGINS
+                        </a>
+                        <ul class="dropdown-menu" style="background-color: #6d111175;">
+                            <li><a class="dropdown-item" id="activee" href="./customer.html">CUSTOMERS LOGIN</a></li>
+                            <li><a class="dropdown-item" id="activee" href="./suppliers.html">SUPLLIERS LOGIN</a></li>
+
+                            <li><a class="dropdown-item" id="activee" href="./contractor.html">CONTRACTORS LOGIN</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="active" href="./contact.html">CONTACT</a>
+                    </li>
+
+
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="row">
+            <!-- <div class="shadow-lg p-3 mb-5 bg-body-tertiary rounded"> -->
+            <div class="col-lg-7  p-3 mb-5 bg-body-tertiary  ">
+                <h3 style="text-align: center; color: #0e0c0c7e;"><span style="color: #505050; font-weight: 900;">Send
+                        us</span> a message</h3>
+                <h6>Name</h6>
+                <input type="text" name="" id="">
+
+                <h6>Email</h6>
+                <input type="email" name="" id="">
+                <h6>Message Text</h6>
+                <textarea name="" id="" cols="30" rows="10"></textarea>
+                <button class="sndbtn">SEND MESSAGE</button>
+            </div>
+
+            <div class="col-lg-5 shadow-lg p-3 mb-5 bg-body-tertiary bggd ">
+                <H3 style="text-align: center;color: #0e0c0c7e;"><span
+                        style="color: #505050; font-weight: 900;">Our</span> Contacts</H3>
+                <i class="fa-solid fa-map-location-dot"></i>
+                <h6>ADDRESS</h6>
+                <p>Street number 5, Town, Country</p>
+                <h6>E-MAIL</h6>
+                <p>onlineconstructions@gmail.com</p>
+                <h6>TELEPHONE</h6>
+                <p>(+371) 512 566 921</p>
+                <h6>WORK HOURS</h6>
+                <p>Mon. - Frie. 11AM - 19PM</p>
+                <h6>ADDITIONAL INFORMATION</h6>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean hendrerit vel mauris at tincidunt.
+                </p>
+
+
+
+            </div>
+            <!-- </div> -->
+        </div>
+    </div>
+    </div>
+
+      <!-- footer part -->
+  <footer class="footer-section">
+    <div class="container">
+      <div class="footer-cta pt-5 pb-5">
+        <div class="row">
+          <div class="col-xl-4 col-md-4 mb-30">
+            <div class="single-cta">
+              <i class="fas fa-map-marker-alt"></i>
+              <div class="cta-text">
+                <h4>Find us</h4>
+                <span>100,Mothilal Street ,Kumbakonam</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4 col-md-4 mb-30">
+            <div class="single-cta">
+              <i class="fas fa-phone"></i>
+              <div class="cta-text">
+                <h4>Call us</h4>
+                <span>Call us +918523990612</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4 col-md-4 mb-30">
+            <div class="single-cta">
+              <i class="far fa-envelope-open"></i>
+              <div class="cta-text">
+                <h4>Mail us</h4>
+                <span>onlinebuildingconstructions@info.com</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-content pt-5 pb-5">
+        <div class="row">
+          <div class="col-xl-4 col-lg-4 mb-50">
+            <div class="footer-widget">
+              <div class="footer-logo">
+                <a href="index.html"><img src="" class="img-fluid" alt=""></a>
+              </div>
+              <div class="footer-text">
+                <p>You can dream, create, design, and build the most wonderful place in the world. But it requires
+                  people to make the dream a reality..</p>
+              </div>
+              <div class="footer-social-icon">
+                <span>Follow us</span>
+                <a href="#"><i class="fab fa-facebook-f facebook-bg"></i></a>
+                <a href="#"><i class="fab fa-twitter twitter-bg"></i></a>
+                <a href="#"><i class="fab fa-google-plus-g google-bg"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
+            <div class="footer-widget">
+              <div class="footer-widget-heading">
+                <h3>Useful Links</h3>
+              </div>
+              <ul>
+                <li><a href=".//index.html">Home</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="customer.html">logins</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-xl-4 col-lg-4 col-md-6 mb-50">
+            <div class="footer-widget">
+              <div class="footer-widget-heading">
+                <h3>Subscribe</h3>
+              </div>
+              <div class="footer-text mb-25">
+                <p>Don’t miss to subscribe to our new feeds, kindly fill the form below.</p>
+              </div>
+              <div class="subscribe-form">
+                <form action="#">
+                  <input type="text" placeholder="Email Address">
+                  <!-- <button><i class="fab fa-telegram-plane"></i></button> -->
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="copyright-area">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-6 col-lg-6 text-center text-lg-left">
+            <div class="copyright-text">
+              <p>Copyright &copy; 2022, All Right Reserved <a href="">onlinebuildingconstructions</a></p>
+            </div>
+          </div>
+          <div class="col-xl-6 col-lg-6 d-none d-lg-block text-right">
+            <div class="footer-menu">
+              <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Terms</a></li>
+                <li><a href="#">Privacy</a></li>
+                <li><a href="#">Policy</a></li>
+                <li><a href="#">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>

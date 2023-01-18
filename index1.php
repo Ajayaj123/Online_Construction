@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&family=Montserrat:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Noto+Sans+Mende+Kikakui&family=Ubuntu&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./script.js" />
+    <link
+      rel="stylesheet"
+      href="./bootstrap-5.2.2-dist/css/bootstrap.min.css"
+    />
+  </head>
+
+  <body>
+    <!-- <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-6 top_boxx">
+          <a href="#">vebboxconstructions.com</a>
+        </div>
+        <div class="col-lg-6 top_box">
+          <p>Call us +918523990612</p>
+          <p>Mon-Sat 8am-7pm <span>Sunday Closed</span></p>
+          <p>100,Mothilal Street ,Kumbakoanm</p>
+        </div>
+      </div>
+    </div> -->
+    <!-- - navbar -->
+    <nav class="navbar navbar-expand-lg navigation p-3 bg">
+      <div class="container-fluid">
+        <a class="navbar-brand" id="active" href="#">VEBBOX CONSTRUCTIONS</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarNavDropdown"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                id="active"
+                aria-current="page"
+                href="./index1.php"
+                >HOME</a
+              >
+            </li>
+            <!-- <li class="nav-item">
+              <a class="nav-link" id="active" href="#">SERVICES</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="active" href="#">ABOUT</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="active" href="#">LATEST PROJECTS</a>
+            </li> -->
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="active"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                LOGINS
+              </a>
+              <ul class="dropdown-menu" style="background-color: #6d111175">
+                <li>
+                  <a class="dropdown-item" id="activee" href="./customer.php"
+                    >CUSTOMERS LOGIN</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" id="activee" href="./suppliers lg.php"
+                    >SUPLLIERS LOGIN</a
+                  >
+                </li>
+
+                <li>
+                  <a class="dropdown-item" id="activee" href="./contractor.php"
+                    >CONTRACTORS LOGIN</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <!-- <li class="nav-item">
+              <a class="nav-link" id="active" href="#">CONTACT</a>
+            </li> -->
+
+            <li class="nav-item">
+              <a class="nav-link" id="active" href="./admin.php">ADMIN</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div
+      id="carouselExampleFade"
+      class="carousel slide carousel-fade"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="10000">
+          <img
+            src="./images/steel-bar-site-construction.jpg"
+            height="700"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+          <img
+            src="./images/construction-workers-fabricating-steel-reinforcement-bar-construction-site_33835-197.webp"
+            class="d-block w-100"
+            height="700"
+            alt="..."
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="./images/construction_0.jpg"
+            class="d-block w-100"
+            height="700"
+            alt="..."
+          />
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleFade"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleFade"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <!-- chatbox -->
+  </body>
+  <script src="./bootstrap-5.2.2-dist/js/bootstrap.bundle.min.js"></script>
+</html>

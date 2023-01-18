@@ -1,0 +1,131 @@
+body{
+    padding:0;
+    margin:0;
+  background-image: url(./images/crop-architect-opening-blueprint_23-2147710985.webp);
+  background-position: 100%;
+  background-size: cover;
+  font-family: 'montserrat';
+  }
+  *{
+    font-family: 'montserrat';
+    font-size: 20px;
+  }
+  .bg{
+    background-color: rgba(72, 62, 62, 0.584);
+    
+  }
+  .box>:placeholder{
+    color: #ae5427;
+  }
+  .box{
+    font-family: 'montserrat';
+  }
+  #active{
+    color: #eee6ee;
+  }
+  #activee{
+    background-color: #5750501e;
+    color: rgba(255, 255, 255, 0.796);
+  }
+  #active:hover{
+    color: #f7f708;
+   
+  }
+  #activee:hover{
+    color: #06d3f2;
+   
+  }
+  .vid-container{
+    position:relative;
+    height:100vh;
+    overflow:hidden;
+  }
+  .bgvid{
+    position:absolute;
+    left:0;
+    top:0;
+    width:100vw;
+  }
+  .inner-container{
+    width:400px;
+    height:400px;
+    position:absolute;
+    top:calc(50vh - 200px);
+    left:calc(50vw - 200px);
+    overflow:hidden;
+  }
+  .bgvid.inner{
+    top:calc(-50vh + 200px);
+    left:calc(-50vw + 200px);
+    filter: url("data:image/svg+xml;utf9,<svg%20version='1.1'%20xmlns='http://www.w3.org/2000/svg'><filter%20id='blur'><feGaussianBlur%20stdDeviation='10'%20/></filter></svg>#blur");
+    -webkit-filter:blur(10px);
+    -ms-filter: blur(10px);
+    -o-filter: blur(10px);
+    filter:blur(10px);
+  }
+  .box{
+    position:absolute;
+    height:100%;
+    width:100%;
+    font-family:Helvetica;
+    color:rgb(255, 255, 255);
+    background:rgba(41, 40, 48, 0.46);
+    padding:30px 0px;
+    border-radius: 20px;
+  
+  }
+  .box h1{
+    text-align:center;
+    margin:30px 0;
+    font-size:30px;
+  }
+  .box input{
+    display:block;
+    width:300px;
+    margin:20px auto;
+    padding:15px;
+    background:rgba(45, 42, 42, 0.932);
+    color:#fff;
+    border:0;
+  }
+  .box input:focus,.box input:active,.box button:focus,.box button:active{
+    outline:none;
+  }
+  .box button{
+    background:#cd3d04c6;
+    border:0;
+    color:#fff;
+    padding:10px;
+    font-size:20px;
+    width:330px;
+    margin:20px auto;
+    display:block;
+    border: #cc5b2e79 solid 1px;
+    cursor:pointer;
+  }
+  .box button:active{
+    background:#ae5427;
+  }
+  .box p{
+    font-size:14px;
+    text-align:center;
+  }
+  .box p span{
+    cursor:pointer;
+    color:#666;
+    
+  }
+  #user1:focus{
+  /* border: black solid 3px; */
+  border: #ae6127 solid 2px;
+  border-radius: 5px;
+  
+  }
+  #user2:focus{
+    /* border: black solid 3px; */
+    border: #ae6127 solid 2px;
+    border-radius: 5px;
+    }
+    .box>span{
+      color: rgb(0, 255, 17);
+    }
